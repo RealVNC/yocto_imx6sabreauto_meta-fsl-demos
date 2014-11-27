@@ -44,5 +44,6 @@ IMAGE_INSTALL += " \
     procps \
     python-psutil \
     iw \
+    realvnc-extra \
 "
 export IMAGE-BASENAME = "realvnc-image"
