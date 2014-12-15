@@ -42,9 +42,11 @@ IMAGE_INSTALL += " \
     dhcp-server \
     dhcp-client \
     procps \
+    python-argparse \
     python-psutil \
     iw \
     linux-firmware \
+    libpcap \
     realvnc-extra \
 "
 export IMAGE-BASENAME = "realvnc-image"
