@@ -1,3 +1,5 @@
+# Copyright (C) 2014-2015 RealVNC Ltd.  All Rights Reserved.
+
 include recipes-graphics/images/core-image-x11.bb
 IMAGE_FEATURES += "debug-tweaks"
 SOC_EXTRA_IMAGE_FEATURES ?= "tools-testapps"
@@ -49,5 +51,7 @@ IMAGE_INSTALL += " \
     libpcap \
     realvnc-extra \
     realvnc-session-start \
+    realvnc-ar6003-firmware \
+    realvnc-compat-wireless \
 "
 export IMAGE-BASENAME = "realvnc-image"
