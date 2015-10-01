@@ -48,5 +48,6 @@ IMAGE_INSTALL += " \
     linux-firmware \
     libpcap \
     realvnc-extra \
+    realvnc-session-start \
 "
 export IMAGE-BASENAME = "realvnc-image"
