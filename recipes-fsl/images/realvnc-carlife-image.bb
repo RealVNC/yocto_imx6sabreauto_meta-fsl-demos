@@ -52,5 +52,8 @@ IMAGE_INSTALL += " \
     qtbase-fonts \
     qtbase-plugins \
     qtbase-tools \
+    xwd \
+    xdotool \
+    rsync \
 "
 export IMAGE-BASENAME = "realvnc-image"
