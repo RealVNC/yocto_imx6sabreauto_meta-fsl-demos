@@ -1,4 +1,4 @@
-# Copyright (C) 2014-2017 RealVNC Ltd.  All Rights Reserved.
+# Copyright (C) 2018 VNC Automotive Ltd.  All Rights Reserved.
 
 include recipes-graphics/images/core-image-x11.bb
 IMAGE_FEATURES += "debug-tweaks"
@@ -44,8 +44,8 @@ IMAGE_INSTALL += " \
     linux-firmware \
     libpcap \
     tcpdump \
-    realvnc-extra \
-    realvnc-session-start \
+    vncautomotive-extra \
+    vncautomotive-session-start \
     packagegroup-fsl-gstreamer1.0-full \
     packagegroup-fsl-tools-gpu \
     packagegroup-fsl-gstreamer1.0 \
@@ -56,4 +56,4 @@ IMAGE_INSTALL += " \
     xdotool \
     rsync \
 "
-export IMAGE-BASENAME = "realvnc-image"
+export IMAGE-BASENAME = "vncautomotive-image"
